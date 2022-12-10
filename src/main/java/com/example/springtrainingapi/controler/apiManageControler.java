@@ -14,6 +14,5 @@ public class apiManageControler {
     @GetMapping("/*")
     public String badRequest(){
         return "Error 400: Bad Request";
-    }
-
+    } //TODO Make 404
 }
